@@ -6,3 +6,19 @@
     container-type: inline-size;
 }
 
+.slider:before,
+.slider:after {
+    content: "";
+    position:absolute;
+    border-right: 1px solid pink;
+    width: 1px;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slider:after{
+    right: -25px;
+}
+.slider:before{
+    left: -25px;
+}
