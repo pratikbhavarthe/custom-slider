@@ -63,3 +63,31 @@
     backdrop-filter: blur(5px) saturate(1.5);
     cursor: grabbing;
 }
+
+.slider_tick {
+    position: absolute;
+    width: 1px;
+    height: 25%;
+    background-color: #303030;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 150ms;
+}
+.slider_track {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: orangered;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+.medium {
+    background-color: blueviolet;
+    height: 37.5%;
+}
+.big {
+    background-color: beige;
+    height: 50%;
+}
