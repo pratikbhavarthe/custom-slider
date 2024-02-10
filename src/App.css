@@ -43,3 +43,9 @@ pre {
   font-weight: bold;
   transition: 350ms cubic-bezier(0.25, 0.8, 0.25, 1);
 }
+
+label {
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
