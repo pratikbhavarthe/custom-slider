@@ -13,3 +13,11 @@
   font-family: monospace;
 }
 
+body,
+html {
+  color-scheme: dark;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #21231d;
+}
