@@ -49,3 +49,13 @@ label {
   position: relative;
   z-index: 1;
 }
+label:before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 66%;
+  z-index: -1;
+  top: 2px;
+  left: -2px;
+  background-color: #ff582d;
+}
