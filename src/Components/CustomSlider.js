@@ -36,8 +36,8 @@ function CustomSlider(props) {
         return;
       }
 
-      if (props.steps !== "0") {
-        const stepPercentage = (props.steps / (props.max - props.min)) * 100;
+      if (props.track !== "0") {
+        const stepPercentage = (props.track / (props.max - props.min)) * 100;
         localPercentage = Math.min(
           Math.ceil(localPercentage / stepPercentage) * stepPercentage,
           100
@@ -50,7 +50,7 @@ function CustomSlider(props) {
       );
       handleRef.current.style.transform = `translateY(-50%) translateX(calc(${localPercentage}cqw  - 25px)`;
     },
-    [props.max, props.min, props.steps]
+    [props.max, props.min, props.track]
   );
 
   useEffect(() => {
