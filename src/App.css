@@ -21,3 +21,17 @@ html {
   overflow-x: hidden;
   background-color: #21231d;
 }
+
+input {
+  background-color: transparent;
+  border: none;
+  text-align: end;
+  border-bottom: #ffeb69 1pt solid;
+  color: #aabfff;
+  font-family: monospace;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  min-width: none;
+  width: fill-available;
+}
