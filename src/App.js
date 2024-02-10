@@ -73,15 +73,15 @@ function App() {
       </div>
 
       <pre style={{ letterSpacing: `${Math.abs(sliderValue / 2)}px` }}>
-        {`        Custom Slider
-          Custom Slider
-            Custom Slider
-          Custom Slider
-          Custom 
-                 Slider`}
-        {`pra
-                ti
-                k     bhavarthe`}
+        {`        My Eyes
+          Fe!n Cola
+            Feel Good
+          Another Me
+          Rumble 
+                 Breathing`}
+        {`
+                pratik
+                    bhavarthe`}
       </pre>
       <a id="web" href="https://github.com/pratikbhavarthe/custom-slider" target={"_blank"}>
       <svg
