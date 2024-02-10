@@ -59,3 +59,24 @@ label:before {
   left: -2px;
   background-color: #ff582d;
 }
+
+.control-panel-container {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+  top: 50px;
+  width: 100vw;
+}
+.control-panel {
+  top: 50px;
+  width: 250px;
+  min-width: none;
+  padding: 25px;
+  border: 1pt solid rgb(105, 105, 105);
+
+  display: flex;
+  color: white;
+  flex-direction: column;
+  gap: 5px;
+}
