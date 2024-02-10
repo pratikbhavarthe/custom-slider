@@ -35,3 +35,11 @@ input {
   min-width: none;
   width: fill-available;
 }
+
+pre {
+  color: #7befb2;
+  font-family: monospace;
+  font-size: 10px;
+  font-weight: bold;
+  transition: 350ms cubic-bezier(0.25, 0.8, 0.25, 1);
+}
