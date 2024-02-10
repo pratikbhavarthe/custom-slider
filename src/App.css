@@ -100,3 +100,10 @@ label:before {
 .hyphen:first-of-type:before {
   left: 100%;
 }
+
+.control-panel__item {
+  width: 100%;
+  gap: 25px;
+  display: flex;
+  justify-content: space-between;
+}
