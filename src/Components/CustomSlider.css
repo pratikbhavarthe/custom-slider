@@ -4,27 +4,26 @@
     height: 50px;
     display: flex;
     container-type: inline-size;
-}
-
-.slider:before,
-.slider:after {
+  }
+  
+  .slider:before,
+  .slider:after {
     content: "";
-    position:absolute;
-    border-right: 1px solid pink;
+    position: absolute;
+    border-right: 1px solid #f73e00;
     width: 1px;
     height: 100%;
     top: 50%;
     transform: translateY(-50%);
-}
-.slider:after{
+  }
+  .slider:after {
     right: -25px;
-}
-.slider:before{
+  }
+  .slider:before {
     left: -25px;
-}
-
-.handle {
-    color:aquamarine;
+  }
+  .handle {
+    color: #d4f593; 
     outline: none;
     border: none;
     position: absolute;
@@ -35,59 +34,61 @@
     height: 50px;
     border-radius: 50px;
     top: 50%;
-    transform:  translateY(-50%);
+    transform: translateY(-50%);
     background-color: transparent;
-    border: 1pt solid white;
+    border: 1pt solid #ff00ff;
     font-family: monospace;
+    font-weight: bold;
     transition: 350ms cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-.handle p:first-of-type {
+  }
+  .handle p:first-of-type {
     position: absolute;
     top: 15px;
-}
-.handle p:last-of-type {
+  }
+  .handle p:last-of-type {
     position: absolute;
     bottom: 15px;
-}
-.handle:before {
-    content:"";
+  }
+  .handle:before {
+    content: "";
     position: absolute;
-    width: 50;
+    width: 50%;
     height: 1px;
-    top: 50;
-    background-color: brown;
-}
-.handle:active,
-.handle:hover {
+    top: 50%;
+    background-color: #32eb96;
+  }
+  .handle:active,
+  .handle:hover {
     outline: none;
     backdrop-filter: blur(5px) saturate(1.5);
     cursor: grabbing;
-}
-
-.slider_tick {
+  }
+  .slider__tick {
     position: absolute;
     width: 1px;
     height: 25%;
-    background-color: #303030;
+    background-color: #03b585;
     top: 50%;
     transform: translateY(-50%);
     transition: 150ms;
-}
-.slider_track {
+  }
+  
+  .slider__track {
     position: absolute;
     width: 100%;
     height: 1px;
-    background-color: orangered;
+    background-color: #1473e6;
     top: 50%;
+  
     transform: translateY(-50%);
     z-index: -1;
-}
-
-.medium {
-    background-color: blueviolet;
+  }
+  .medium {
+    background-color: rgb(183, 183, 183);
     height: 37.5%;
-}
-.big {
-    background-color: beige;
+  }
+  .big {
+    background-color: #1473e6;
     height: 50%;
-}
+  }
+  
